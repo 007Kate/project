@@ -1,0 +1,17 @@
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+ /* more styles */
+ @import url("my-imported-styles.css");
+
+ /* Це не правильно тому що так записувати не можна, повинно бути так: */
+ 
+  @import url("my-imported-styles.css");
+
+  * {
+  margin: 0;
+  padding: 0;
+ }
+ /* more styles */
