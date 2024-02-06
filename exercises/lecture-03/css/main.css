@@ -1,4 +1,6 @@
+@import url(common.css);
+
 body {
-  color: #000;
-  background: #fff;
+  --primary-text-color: #000;
+  --primary-bg-color: #fff;
 }
